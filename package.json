@@ -1,0 +1,28 @@
+{
+  "name": "raspicture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiloSas/Raspicture.git"
+  },
+  "author": "Loann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiloSas/Raspicture/issues"
+  },
+  "homepage": "https://github.com/SiloSas/Raspicture#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
