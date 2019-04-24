@@ -91,7 +91,7 @@
     }
 
     function displayPictures(picturesToDisplay) {
-        const oneOurInMillis = 60000*60;
+        const oneMinuteInMillis = 60000;
         const imageUrl = picturesToDisplay[0].url;
         document.getElementById("picture").style.backgroundImage = 'url(' + imageUrl + ')';
         document.getElementById("who").innerText=picturesToDisplay[0].credit.length ? picturesToDisplay[0].credit : "";
@@ -103,7 +103,7 @@
             } else {
                 displayPictures(getPicturesToDisplay())
             }
-        }, oneOurInMillis)
+        }, oneMinuteInMillis)
     }
 
     displayPictures(getPicturesToDisplay())
